@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu gym</title>
+   <link href=" https://fonts.google.com/specimen/Open+Sans#:~:text=Regular%20400-,Whereas%20recognition%20of%20the%20inherent%20dignity,Select%20Regular%20400,-Regular%20400%20Italic">
+    <style>
+        body{color: white;
+            margin:0px;
+            padding:0px;
+            background:url('https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg');
+            height:10000px;
+        } 
+        .left{
+        
+
+        position: absolute;
+        top: 20px;   
+        left:34px ;
+        display: inline-block;
+        }
+        .middle{
+            display:block;
+            width:50%;
+            margin:20px auto;
+      
+      
+        }
+        .right{
+        position: absolute;
+        top: 20px;   
+        right:34px ;
+    
+     display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+          font-size: 25px;
+        }
+        .navbar li a{
+            color:yellow;
+            text-decoration: none;
+            padding:200px auto;
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration: underline; 
+            color: grey;
+        }
+        .left img{
+            width: 120px;
+          border-radius: 50px; 
+          border:4px solid yellow;
+        }
+        .left div{
+            text-align: center;
+            color:blue;
+            background-color: white;
+          border:2px solid red;
+          border-radius: 10px;
+        }
+        .btn{
+            margin:0 9px;
+            background-color: beige;
+            padding:4px 14px;
+            border:2px solid red;
+            border-radius: 10px;
+            cursor:pointer;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            
+            margin:150px 50px;
+            padding:75px;
+            width:33%;
+            border-radius: 20px;}
+            .form-group input{
+                text-align: center;
+                display: block;
+                width:234px;
+                padding:10px;
+                border:2px solid red ;
+                margin:11px;
+                border-radius:10px ;
+                font-size:12px ;
+            } 
+            .container h1{
+                text-align: center;
+              margin: px 24px;
+            }
+            .container button{
+                display: block;
+                width: 33%;
+                margin left :25px;
+            }
+        
+    </style>
+</head>
+<body>
+    <header class="header" >
+        <!-- left box for logo -->
+   <div class="left">
+  <img src="https://www.shutterstock.com/image-vector/fitness-logo-badge-muscle-man-600w-1064567999.jpg" alt="">
+    
+    <div>Priyanshu fitness</div> 
+</div>
+    <!-- mid box for navigation -->
+  <div class="middle">
+ <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">AboutUs</a></li>
+    <li><a href="#">FitnessCalculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+ </ul>
+   
+  </div>
+  <!-- right box for button -->
+  <div class="right">
+  <button class="btn">Join Us</button>
+  <button class="btn">Email Us</button>
+
+  </div>
+    </header>
+    <div class="container">
+
+        <h1>Join The Best Gym Of Jhalwa</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your contact no.">
+            </div>
+       <button class="btn">submit</button>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>

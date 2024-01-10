@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delivery service .com</title>
+    <link rel="stylesheet" media="screen and (max-width:960px)" href="css/phone.css">
+
+    <style>
+    
+
+ *{ margin:0px;
+ padding:0px; }
+    #navbar::before{
+        content: "";
+        position: absolute;
+        background-color: black;
+        height:100%;
+        width:100%;
+        z-index:-1 ;
+        opacity:0.3 ;
+    }
+ #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ position: relative;
+
+ }
+
+ #logo{
+    margin:10px 34px;
+
+
+ }
+   #logo img{
+     height:100px ;
+    border-radius: 90px;
+    border:2px solid blue ;
+     margin:3px 6px;
+    }  
+ #navbar ul{
+        display: flex;
+    }
+    #navbar ul li{
+        list-style: none;
+        font-size:1.3rem ;
+    }
+    #navbar ul li a{
+        color: white;
+        display: block;
+        padding:3px 22px;
+        border-radius: 20px;
+    text-decoration: none;
+    }
+    #navbar ul li a:hover{
+        color:black;
+        background-color:white ;
+        
+       
+    }
+    #Home{
+        display: flex;
+        flex-direction: column;
+        padding:3px 150px;
+        height:850px;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    }
+    #Home::before{
+        content: "";
+        position: absolute;
+       background: url('https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') no-repeat center center/cover;
+        height:100%;
+        width:100%;
+        z-index:-1 ;
+        padding:0px ;
+        opacity:0.75 ;
+    }
+    #Home h1{
+        color:blue;
+        text-align: center;
+    } 
+     #Home p{
+        color:black;
+            text-align: center;}
+            #Home p:hover{
+                background-color:red ;
+       }
+       /* services section */
+       #services{
+        margin:34px;
+        display:flex;
+       }
+       #services .box{
+        border: 2px solid brown;
+        width:500px;
+        padding:34px;
+        margin:3px 8px;
+        border-radius: 28px;
+        background-color: blanchedalmond;
+        box-shadow: -6px -7px brown;
+       }
+        #services .box :hover{
+            transform: scale(1.1);
+        }
+       #services .box img{
+        height:270px;
+        display: block;
+        margin:auto;
+       }
+       /* client section */
+       #client-section{
+ height:300px ;
+       }
+       #clients{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       #clients .client-items img{
+        height:130px ;
+        border-radius:150px ;
+        margin:3px 5px;
+       }
+       #client-section::before{
+        content:"";
+        position: absolute;
+        background: url('https://cdn.loveandlemons.com/wp-content/uploads/2021/09/how-to-make-vegetable-broth.jpg');
+        width:100%;
+        height:54%;
+        z-index:-1;
+        opacity:0.4 ;
+       }
+       /* contact section */
+       #contact{
+        height:400px ;
+        margin-top:130px ;
+        position: relative;
+       }
+     #contact::before{
+        content:"";
+     position: absolute;
+  background:url('https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=1024x1024&w=is&k=20&c=08C4m9cMYF5lUQvtHVSd-X3vIGhuIFgmYbTSNP2AdL4=') ;
+        width:100%;
+        height:100%;
+        z-index:-1;
+        opacity:0.4 ;
+
+     }
+       .form-group{
+        margin-left:50px ;
+        margin-top: 50px;
+        font-size:1.5rem ;
+       } 
+       footer{
+        height:35px;
+        background-color: yellow;
+        
+       }
+       .center{
+        text-align: center;
+        padding:3px ;
+        color:black;
+       }
+
+       
+    .h-primary{
+        font-size: 2.8rem;
+        padding:8px ;
+    }
+    .h-secondary{
+        font-size: 2rem;
+        padding:8px ;}
+    .btn{
+        padding:6px 20px;
+        border:2px solid white ;
+        background-color:yellow;
+        border-radius:10px ;
+        cursor: pointer;
+        margin:17px;
+        font-size: 1.2rem;
+    }
+    .btn:hover{
+        background-color: white;
+    }
+ h2{
+    text-align: center;
+ }
+ h1{
+    text-align: center;
+ }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+
+
+ <div id="logo">
+
+ <img src='https://img.favpng.com/8/3/16/logo-food-network-font-portable-network-graphics-png-favpng-ax5Sf03Kjh62vB7gij7QUWPjk.jpg' alt="none">
+    
+ </div>
+ <ul>
+ <li class="item"><a href=""> Home</a></li>
+ <li class="item"><a href="">About Us</a></li>
+ <li class="item"><a href="">Services</a></li>
+ <li class="item"><a href="">Contact Us</a></li>
+
+
+ </ul>
+    </nav>
+ <section id="Home">
+<h1 class="h-primary">welcome to online meal delivery</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quisquam, amet consectetur veniam, dolore exercitationem nesciunt iste corrupti vitae quaerat officia cumque ipsum itaque sed, reprehenderit dolores necessitatibus dicta iure.</p>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio veritatis ea quidem aut dignissimos voluptates iure modi obcaecati labore similique, tempora repellendus, facilis ratione est vitae fugiat impedit ex assumenda.</p>
+ 
+<button class="btn">Order Now</button>
+
+ </section>
+ <section class="services-container">
+
+<h1 class="h-primary center">Our Services</h1>
+<div id="services">
+<div class="box">
+ <img src="https://images.unsplash.com/photo-1573832453281-d57bce49fb70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+ <h2 class="h-secondary"> Food Ordering</h2>
+ <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum deserunt molestiae necessitatibus tempore repellendus  </p>
+</div> 
+<div class="box">
+    <img src="https://img.freepik.com/premium-psd/flat-lay-free-food-service-arrangement-with-background-mock-up_23-2148421300.jpg?w=996" alt="">
+    <h2 class="h-secondary"> Food Catering</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum deserunt molestiae necessitatibus tempore repellendus </p>
+   </div> 
+   <div class="box">
+    <img src="https://img.freepik.com/free-vector/safe-food-delivery-order-receive_23-2148549716.jpg?w=1380&t=st=1686116427~exp=1686117027~hmac=6bc8f47a3739ea65c8463fea8663b2b1f0bf3d99c9eaac8e3c02c1eee881c4c1" alt="">
+    <h2 class="h-secondary"> Bulk Ordering</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum deserunt molestiae necessitatibus tempore repellendus </p>
+   </div> 
+
+
+
+
+</div>
+ </section>
+<section id="client-section">
+<h1 class="h-primary center">Our Clients</h1> 
+<div id="clients">
+
+    <div class="client-items">
+<img src="https://media.istockphoto.com/id/1190921276/photo/bitten-apple-on-white-background.jpg?s=612x612&w=is&k=20&c=qqTXiSomfF6vbai7s1YHQvSwHth3PGOOO7UsPUZpjUc=" alt="our client">
+    </div>
+    <div class="client-items">
+        <img src="https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png" alt="our client">
+         </div>
+        <div class="client-items">
+          <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png" alt="our client">
+          </div>
+          <div class="client-items">
+            <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30143409/5_big.png" alt="our client">
+            </div>         
+
+</div>
+</section>
+ <section id="contact">
+  <h1 class="h-primary center">Contact Us</h1>
+ <form action="">
+ <div class="form-group">
+
+ <label for="name">Name:</label>
+ <input type="text" name="name"id="name" placeholder="enter your name">
+ <label for="name">email:</label>
+ <input type="email" name="name"id="email" placeholder="enter your email">
+ </div>
+ <div class="form-group">
+    <label for="name">Phone No.:</label>
+    <input type="Phone" name="name"id="phone" placeholder=" enter your Phone No.">
+ </div>
+ </form>
+ </section>
+ <footer>
+ <div class="center">
+    copyright &COPY;www.onlineFoodDelievryService.com Allright reserved;
+ </div>
+
+
+
+ </footer>
+
+
+
+</body>
+</html>
